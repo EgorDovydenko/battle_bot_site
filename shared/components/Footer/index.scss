@@ -1,0 +1,40 @@
+.footer {
+  width: 100%;
+  max-width: 1720px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 18px;
+
+  margin: 28px auto 0;
+}
+
+.footer__links {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+
+  a {
+    transition: all 0.3s ease;
+
+    &:hover {
+      scale: 1.15;
+    }
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .footer {
+    flex-direction: column;
+    gap: 12px;
+
+    p {
+      text-align: center;
+    }
+
+    .footer__links {
+      order: -1;
+    }
+  }
+}
