@@ -16,8 +16,7 @@ export const links = {
     "https://docs.google.com/forms/d/e/1FAIpQLSfxtT6aBPiOiDwhBuYpKNWqJlAXfVgW00VFFi3-UA8db1xV0Q/viewform?usp=header",
   viewersTicketsForm:
     "https://docs.google.com/forms/d/e/1FAIpQLSc3JyFDHVchDrp2KdfjxzKRsv1VKfqqihn0Pa1ptt1Zxl7SUg/viewform?usp=header",
-  donationsLinkOne: "https://example.com/donate1",
-  donationsLinkTwo: "https://example.com/donate2",
+  donationsLink: "https://yoomoney.ru/to/4100119489955948",
   donationsForm:
     "https://docs.google.com/forms/d/e/1FAIpQLSdMMYL5-_B4-RqQsbwNE4_gjMmDXhXVfbMEnpDekanJrZNMfw/viewform?usp=header",
 };

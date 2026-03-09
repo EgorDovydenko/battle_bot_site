@@ -180,19 +180,11 @@ export const FAQ = () => {
             Ссылки для донатов:
             <br />
             <a
-              href={links.donationsLinkOne}
+              href={links.donationsLink}
               target="_blank"
               rel="noopener noreferrer"
             >
-              Cбербанк
-            </a>
-            <br />
-            <a
-              href={links.donationsLinkTwo}
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Альфабанк
+              Yoomoney
             </a>
             <br />
             <br />
