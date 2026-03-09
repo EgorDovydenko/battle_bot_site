@@ -5,7 +5,7 @@ export const anchors = {
 };
 
 export const links = {
-  telegram: "https://t.me/battle_bot_test_bot",
+  telegram: "https://t.me/chain_club_bot",
   instagram: "https://instagram.com/",
   tiktok: "https://tiktok.com/",
   terms:
