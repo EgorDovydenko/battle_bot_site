@@ -5,7 +5,7 @@ import Image from "next/image";
 export const Footer = () => {
   return (
     <footer className="footer">
-      <p>© 2026 Бойцовский клуб ЦЕПЬ. Все права защищены.</p>
+      <p>© 2026 Бойцовский клуб «ЦЕПЬ». Все права защищены.</p>
 
       <div className="footer__links">
         <a href={links.telegram} target="_blank" rel="noopener noreferrer">
