@@ -37,7 +37,7 @@ export const FAQ = () => {
             <br />
             <a href={links.terms} target="_blank" rel="noopener noreferrer">
               {" "}
-              Правила и условия участия в боях
+              Политика обработки персональных данных
             </a>
           </p>
         </details>
