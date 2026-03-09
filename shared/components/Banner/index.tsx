@@ -9,10 +9,13 @@ export const Banner = () => {
         <h2>ВАШ БОЙЦОВСКИЙ КЛУБ</h2>
 
         <div className="banner__buttons">
-          <a href={links.telegram} className="banner__button">
+          <a href={links.fightersRequestForm} className="banner__button">
             в бой
           </a>
-          <a href="#about" className="banner__button banner__button--secondary">
+          <a href={links.viewersTicketsForm} className="banner__button banner__button--white">
+            купить билет
+          </a>
+          <a href="#about" className="banner__button banner__button--black">
             подробнее
           </a>
         </div>
@@ -22,7 +25,7 @@ export const Banner = () => {
         className="banner__image"
         src="/images/banner.png"
         alt="Fight Club Banner"
-        width={600}
+        width={590}
         height={330}
       />
     </div>

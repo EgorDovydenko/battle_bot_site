@@ -2,29 +2,29 @@
   width: 100%;
   max-width: 1720px;
   height: 65svh;
-  min-height: 400px;
-  max-height: 700px;
+  min-height: 360px;
+  max-height: 680px;
 
   display: flex;
   align-items: center;
   justify-content: space-around;
-  gap: 28px;
+  gap: 2px;
 
   margin: 0 auto;
 
   .banner__left {
     h2 {
-      font-size: 34px;
+      font-size: 36px;
       white-space: nowrap;
     }
 
     .banner__buttons {
       display: flex;
       align-items: center;
-      gap: 16px;
+      gap: 13px;
 
       .banner__button {
-        padding: 16px 28px;
+        padding: 14px 26px;
 
         background: linear-gradient(
           135deg,
@@ -33,11 +33,12 @@
         );
         border-radius: 10px;
 
-        font-size: 18px;
+        font-size: 17px;
         font-weight: 600;
         text-transform: uppercase;
         text-decoration: none;
         color: #ffffff;
+        white-space: nowrap;
 
         transition: all 0.2s ease;
 
@@ -49,8 +50,22 @@
           );
         }
 
-        &--secondary {
-          padding: 14px 28px;
+        &--white {
+          padding: 12px 20px;
+
+          background: #ffffff;
+          border: 2px solid transparent;
+          color: rgb(122, 28, 0);
+
+          &:hover {
+            background: transparent;
+            border: 2px solid #ffffff;
+            color: #ffffff;
+          }
+        }
+
+        &--black {
+          padding: 12px 20px;
 
           background: transparent;
           border: 2px solid #ffffff;
@@ -62,6 +77,26 @@
         }
       }
     }
+  }
+
+  img {
+    animation: pulse-red 2s ease-in-out infinite;
+
+    will-change: filter;
+  }
+
+  &::after {
+    content: "";
+    position: absolute;
+    top: -70px;
+
+    width: 100%;
+    height: calc(100% + 68px);
+
+    background-size: 100% 100%;
+    background-image: url("/images/banner-back.png");
+
+    z-index: -1;
   }
 }
 
@@ -93,5 +128,21 @@
       max-width: 600px;
       height: auto;
     }
+
+    &::after {
+      height: calc(60% + 68px);
+    }
+  }
+}
+
+@keyframes pulse-red {
+  0% {
+    filter: drop-shadow(0 0 1.5px rgb(185, 0, 0));
+  }
+  50% {
+    filter: drop-shadow(0 0 10px rgb(185, 0, 0));
+  }
+  100% {
+    filter: drop-shadow(0 0 1.5px rgb(185, 0, 0));
   }
 }

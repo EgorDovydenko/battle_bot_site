@@ -1,6 +1,6 @@
 export const anchors = {
   about: "О клубе",
-  faq: "Частые вопросы",
+  faq: "Информация",
   contact: "Telegram",
 };
 
@@ -9,10 +9,10 @@ export const links = {
   instagram: "https://instagram.com/",
   tiktok: "https://tiktok.com/",
   terms: "https://example.com/terms",
-  fightersRequestForm: "https://forms.gle/application-form",
-  fightersTrainingForm: "https://forms.gle/training-form",
-  viewersTicketsForm: "https://forms.gle/tickets-form",
+  fightersRequestForm: "https://docs.google.com/forms/d/e/1FAIpQLSfNnvZ6QITUELJhQomBjTqDM6QFapLEn15xSn09wQ9C8H6Ayw/viewform?usp=header",
+  fightersTrainingForm: "https://docs.google.com/forms/d/e/1FAIpQLSfxtT6aBPiOiDwhBuYpKNWqJlAXfVgW00VFFi3-UA8db1xV0Q/viewform?usp=header",
+  viewersTicketsForm: "https://docs.google.com/forms/d/e/1FAIpQLSc3JyFDHVchDrp2KdfjxzKRsv1VKfqqihn0Pa1ptt1Zxl7SUg/viewform?usp=header",
   donationsLinkOne: "https://example.com/donate1",
   donationsLinkTwo: "https://example.com/donate2",
-  donationsForm: "https://forms.gle/donations-form",
+  donationsForm: "https://docs.google.com/forms/d/e/1FAIpQLSdMMYL5-_B4-RqQsbwNE4_gjMmDXhXVfbMEnpDekanJrZNMfw/viewform?usp=header",
 };

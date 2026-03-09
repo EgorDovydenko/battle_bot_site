@@ -4,7 +4,7 @@ import "./index.scss";
 export const FAQ = () => {
   return (
     <div id="faq" className="faq">
-      <h2>Часто задаваемые вопросы</h2>
+      <h2>Полезная информация</h2>
 
       <div className="faq__questions">
         <details open={true}>
