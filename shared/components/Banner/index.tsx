@@ -12,11 +12,17 @@ export const Banner = () => {
           <a href={links.fightersRequestForm} className="banner__button">
             в бой
           </a>
-          <a href={links.viewersTicketsForm} className="banner__button banner__button--white">
+          <a
+            href={links.viewersTicketsForm}
+            className="banner__button banner__button--white"
+          >
             купить билет
           </a>
-          <a href="#about" className="banner__button banner__button--black">
-            подробнее
+          <a
+            href={links.fightersTrainingForm}
+            className="banner__button banner__button--black"
+          >
+            тренировка
           </a>
         </div>
       </div>
