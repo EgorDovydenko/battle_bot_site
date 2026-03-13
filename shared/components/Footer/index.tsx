@@ -8,7 +8,8 @@ export const Footer = () => {
       <div className="footer__contacts">
         <h3>Наши контакты</h3>
 
-        <a href="tel:+375447835965">+375 (44) 783 59 65</a>
+        <a href="tel:+375291154010">+375 (29) 115 40 10</a>
+        <a href="tel:+375291307075">+375 (29) 130 70 75</a>
         <a href={links.telegramSupport}>@chain_club_support</a>
 
         <div className="footer__links footer__links--mobile">
